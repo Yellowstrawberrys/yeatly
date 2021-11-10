@@ -1,0 +1,320 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="../css/cookies.css">
+		<link rel="stylesheet" href="../css/bootstrap.css">
+		<link rel="stylesheet" href="../css/menu.css">
+		<title>YEATLY - MENU</title>
+		<link rel="icon" type="image/png" href="../src/logo.png" />
+	</head>
+	<script>
+
+		function onload(){
+			var modal = document.getElementById("all");
+			modal.style.display = "block";
+		}
+
+		function ja(){
+			var modal = document.getElementById("all");
+			var x = document.getElementById("cookies");
+			modal.style.display = "none";
+			x.style.visibility = 'hidden';
+		}
+
+		function rickroll(){
+			window.location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+		}
+	</script>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@500&family=Signika+Negative:wght@700&display=swap');
+
+		Main{
+			font-size: 5.2em;
+			font-family: 'IBM Plex Sans KR', sans-serif;
+			font-family: 'Signika Negative', sans-serif;
+		}
+
+		div.modal {
+			display: block; /* Hidden by default */
+			position: fixed; /* Stay in place */
+			z-index: 1; /* Sit on top */
+			left: 0;
+			top: 0;
+			width: 100%; /* Full width */
+			height: 100%; /* Full height */
+			overflow: auto; /* Enable scroll if needed */
+			background-color: rgb(0,0,0); /* Fallback color */
+			background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+		}
+	</style>
+	<body onload="onload()">
+		<div class="modal" id="all">
+			<!-- COOKIES / 쿠키 -->
+			<div class="d-flex align-items-center align-self-center card p-3 text-center cookies" id="cookies" style="display: flex; justify-content: center; margin:0 auto; position: absolute; align-items: center; top: 40%;
+			left: 40%;">
+				<img src="https://i.imgur.com/Tl8ZBUe.png" width="50">
+				<span class="mt-2">Willst du Kekse? Dann müssen Sie auf "Ja" klicken, um fortzufahren!</span>
+				<a class="d-flex align-items-center" onclick="rickroll()" href="#">Nein... ><i class="fa fa-angle-right ml-2"></i></a> 
+				<button class="btn btn-dark mt-3 px-4" type="button" onclick="ja()">Ja!</button> 
+			</div>
+		</div>
+
+		<!-- SITE-MENU / 사이트-메뉴-->
+
+		<div>
+			<img src="../src/logo.png" width="140" align="left" onclick="rickroll()"/> <Main onclick="rickroll()">YEATLY</Main>
+			<hr/>
+		</div>
+
+		<!-- MENU(Appetizers) / 메뉴(에피타이저) -->
+
+		<sel>Vorspeisen (3)</sel>
+
+		<div id="Getränk">
+			<hr style="border-top:2px solid rgba(0,0,0,.1); color: gray;"/>
+			<menu>
+				<img src="../src/salat.bmp" width="140" align="left"/>
+				<item class="title">
+					Salate
+					<item class="text">
+						<br/>
+							1,99€
+						<br/>
+						<br/>
+					</item>
+				</item>
+			</menu>
+			<hr style="border-top:2px solid rgba(0,0,0,.1); color: gray;"/>
+			<menu>
+				<img src="../src/suppen.bmp" width="140" align="left"/>
+				<item class="title">
+					Suppen
+					<br/>
+					<item class="text">
+						1,99€
+						<br/>
+						<br/>
+					</item>
+				</item>
+			</menu>
+			<hr style="border-top:2px solid rgba(0,0,0,.1); color: gray;"/>
+			<menu>
+				<img src="../src/Wienerbrot.bmp" width="140" align="left"/>
+				<item class="title">
+					Wienerbrot
+					<br/>
+					<item class="text">
+						0,99€
+						<br/>
+						<br/>
+					</item>
+				</item>
+			</menu>
+			<hr style="border-top:2px solid rgba(0,0,0,.1); color: gray;"/>
+		</div>
+
+		<!-- MENU(FOODS) / 메뉴(음식) -->
+
+		<sel>Essen (6)</sel>
+
+		<div id="Essen">
+			<hr style="border-top:2px solid rgba(0,0,0,.1); color: gray;"/>
+
+			<!-- Bibimbap / 비빔밥 -->
+			<menu>
+				<img src="../src/bibimbap.bmp" width="140" align="left"/>
+				<item class="title">
+					Bibimbap(비빔밥)
+					<item class="text">
+						<br/>
+							9,5€
+						<br/>
+						<br/>
+					</item>
+				</item>
+			</menu>
+			<hr style="border-top:2px solid rgba(0,0,0,.1); color: gray;"/>
+
+			<!-- Schnitzel -->
+			<menu>
+				<img src="../src/schnitzel.bmp" width="140" align="left"/>
+				<item class="title">
+					Schnitzel
+					<br/>
+					<item class="text">
+						10€
+						<br/>
+						<br/>
+					</item>
+				</item>
+			</menu>
+			<hr style="border-top:2px solid rgba(0,0,0,.1); color: gray;"/>
+			
+			<!-- Schweinshaxel -->
+			<menu>
+				<img src="../src/Schweinshaxe.bmp" width="140" align="left"/>
+				<item class="title">
+					Schweinshaxe
+					<br/>
+					<item class="text">
+						6,2€
+						<br/>
+						<br/>
+					</item>
+				</item>
+			</menu>
+			<hr style="border-top:2px solid rgba(0,0,0,.1); color: gray;"/>
+			
+			<!-- Weisswurst -->
+			<menu>
+				<img src="../src/Weisswurst.bmp" width="140" align="left"/>
+				<item class="title">
+					Weisswurst
+					<br/>
+					<item class="text">
+						2€
+						<br/>
+						<br/>
+					</item>
+				</item>
+			</menu>
+			<hr style="border-top:2px solid rgba(0,0,0,.1); color: gray;"/>
+			
+			<!-- Eisbein -->
+			<menu>
+				<img src="../src/Eisbein.bmp" width="140" align="left"/>
+				<item class="title">
+					Eisbein
+					<br/>
+					<item class="text">
+						7,99€
+						<br/>
+						<br/>
+					</item>
+				</item>
+			</menu>
+			<hr style="border-top:2px solid rgba(0,0,0,.1); color: gray;"/>
+			
+			<!-- Spätzle -->
+			<menu>
+				<img src="../src/Spätzle.bmp" width="140" align="left"/>
+				<item class="title">
+					Spätzle
+					<br/>
+					<item class="text">
+						5,2€
+						<br/>
+						<br/>
+					</item>
+				</item>
+			</menu>
+			<hr style="border-top:2px solid rgba(0,0,0,.1); color: gray;"/>
+		</div>
+
+		<!-- MENU(Drinks) / 메뉴(음료) -->
+
+		<sel>Getränk (3)</sel>
+
+		<div id="Getränk">
+			<hr style="border-top:2px solid rgba(0,0,0,.1); color: gray;"/>
+			<menu>
+				<img src="../src/sik-hea.bmp" width="140" align="left"/>
+				<item class="title">
+					Sikhye
+					<item class="text">
+						<br/>
+							0,25L / 2,39€
+						<br/>
+						<br/>
+					</item>
+				</item>
+			</menu>
+			<hr style="border-top:2px solid rgba(0,0,0,.1); color: gray;"/>
+			<menu>
+				<img src="../src/apfelschorle.bmp" width="140" align="left"/>
+				<item class="title">
+					Apfelschorle
+					<br/>
+					<item class="text">
+						0,25L / 1,99€
+						<br/>
+						<br/>
+					</item>
+				</item>
+			</menu>
+			<hr style="border-top:2px solid rgba(0,0,0,.1); color: gray;"/>
+			<menu>
+				<img src="../src/fanta.bmp" width="140" align="left"/>
+				<item class="title">
+					Fanta
+					<br/>
+					<item class="text">
+						0,5L / 2,99€
+						<br/>
+						<a href="https://www.coca-cola-deutschland.de/unsere-marken/fanta/fanta-eine-erfindung-made-in-germany-bl">Warum?</a>
+						<br/>
+					</item>
+				</item>
+			</menu>
+			<hr style="border-top:2px solid rgba(0,0,0,.1); color: gray;"/>
+		</div>
+
+		<!-- MENU(Dessert) / 메뉴(디저트) -->
+
+		<sel>Nachspeise (3)</sel>
+
+		<div id="Nachspeise">
+			<hr style="border-top:2px solid rgba(0,0,0,.1); color: gray;"/>
+			<menu>
+				<img src="../src/Eis.bmp" width="130" align="left"/>
+				<item class="title">
+					Eis
+					<item class="text">
+						<br/>
+							1,99€
+						<br/>
+						<br/>
+					</item>
+				</item>
+			</menu>
+			<hr style="border-top:2px solid rgba(0,0,0,.1); color: gray;"/>
+			<menu>
+				<img src="../src/Kuchen.bmp" width="140" align="left"/>
+				<item class="title">
+					Kuchen
+					<br/>
+					<item class="text">
+						9,99€
+						<br/>
+						<br/>
+					</item>
+				</item>
+			</menu>
+			<hr style="border-top:2px solid rgba(0,0,0,.1); color: gray;"/>
+			<menu>
+				<img src="../src/Quarkpudding.bmp" width="110" align="left"/>
+				<item class="title">
+					Quarkpudding
+					<br/>
+					<item class="text">
+						0,99€
+						<br/>
+						<br/>
+					</item>
+				</item>
+			</menu>
+			<hr style="border-top:2px solid rgba(0,0,0,.1); color: gray;"/>
+		</div>
+
+		<div>
+			<hr style="border-top:2px solid rgba(0,0,0,.1); color: gray;"/>
+			<p style="text-align: center;">
+				Copyrighted by YEATLY©, All rights reserved,<br/>
+				2021-2022<br/>
+				<br/>
+				Kontakt: +175 123456789<br/>
+				Addresse: Hallenser Str. 2, 71065 Sindelfingen<br/>
+				POWERED BY International School of Stuttgart Sindelfingen Campus
+			</p>
+		</div>
+	</body>
+</html>

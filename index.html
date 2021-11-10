@@ -1,0 +1,120 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="css/cookies.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/menu.css">
+		<title>YEATLY - MENU</title>
+		<link rel="icon" type="image/png" href="src/logo.png" />
+	</head>
+	<script>
+
+		function onload(){
+			var modal = document.getElementById("all");
+			modal.style.display = "block";
+		}
+
+		function ja(){
+			var modal = document.getElementById("all");
+			var x = document.getElementById("cookies");
+			modal.style.display = "none";
+			x.style.visibility = 'hidden';
+		}
+
+		function rickroll(){
+			window.location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+		}
+	</script>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@500&family=Signika+Negative:wght@700&display=swap');
+
+		Main{
+			font-size: 5.2em;
+			font-family: 'IBM Plex Sans KR', sans-serif;
+			font-family: 'Signika Negative', sans-serif;
+		}
+
+		.title{
+			font-size: 4.2em;
+			text-align: center;
+			font-family: 'IBM Plex Sans KR', sans-serif;
+			font-family: 'Signika Negative', sans-serif;
+		}
+
+		.txt{
+			font-size: 1.2em;
+			text-align: center;
+			font-family: 'IBM Plex Sans KR', sans-serif;
+			font-family: 'Signika Negative', sans-serif;
+		}
+
+		div.modal {
+			display: block; /* Hidden by default */
+			position: fixed; /* Stay in place */
+			z-index: 1; /* Sit on top */
+			left: 0;
+			top: 0;
+			width: 100%; /* Full width */
+			height: 100%; /* Full height */
+			overflow: auto; /* Enable scroll if needed */
+			background-color: rgb(0,0,0); /* Fallback color */
+			background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+		}
+	</style>
+	<body onload="onload()">
+		<div class="modal" id="all">
+			<!-- COOKIES / 쿠키 -->
+			<div class="d-flex align-items-center align-self-center card p-3 text-center cookies" id="cookies" style="display: flex; justify-content: center; margin:0 auto; position: absolute; align-items: center; top: 40%;
+			left: 40%;">
+				<img src="https://i.imgur.com/Tl8ZBUe.png" width="50">
+				<span class="mt-2">Willst du Kekse? Dann müssen Sie auf "Ja" klicken, um fortzufahren!</span>
+				<a class="d-flex align-items-center" onclick="rickroll()" href="#">Nein... ><i class="fa fa-angle-right ml-2"></i></a> 
+				<button class="btn btn-dark mt-3 px-4" type="button" onclick="ja()">Ja!</button> 
+			</div>
+		</div>
+
+		<!-- SITE-MENU / 사이트-메뉴-->
+
+		<div>
+			<img src="src/logo.png" width="140" align="left" onclick="rickroll()"/> <Main onclick="rickroll()">YEATLY</Main>
+			<hr/>
+		</div>
+
+		<center style="background-color: rgb(218, 218, 218);">
+			<img src="src/main/mainpic.bmp" width="900"/>
+			<p class="title">Bestes Restaurant in Sindelfingen</p>
+		</center>
+		<hr style="border-top:2px solid rgba(0,0,0,.1); color: gray;"/>
+		
+		<img src="src/main/mainpic2.bmp" width="800" align="left"/> 
+		<sel>-200 Jahre Tradition</sel><br/>
+		<text class="txt">
+			Dieses Restaurant hat -200 Jahre Tradition. Essen schmeckt gut. (sehr lange informationen) (sehr lange informationen) (sehr lange informationen) (sehr lange informationen) sjfhdjlaksfhjkadshfldjkashfklsajhfjkladshfkljdashfjlk
+		</text>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/><br/>
+		<br/>
+		<br/>
+		<br/><br/>
+		<div>
+			<hr style="border-top:2px solid rgba(0,0,0,.1); color: gray;"/>
+			<p style="text-align: center;">
+				Copyrighted by YEATLY©, All rights reserved,<br/>
+				2021-2022<br/>
+				<br/>
+				Kontakt: +175 123456789<br/>
+				Addresse: Hallenser Str. 2, 71065 Sindelfingen<br/>
+				POWERED BY International School of Stuttgart Sindelfingen Campus
+			</p>
+		</div>
+	</body>
+</html>
